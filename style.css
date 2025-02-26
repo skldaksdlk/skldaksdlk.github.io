@@ -1,0 +1,43 @@
+body {
+    background-color: #71620D;
+    margin : 0;
+}
+
+.header {
+    color: yellow;
+    font-size: 50px;
+    position: relative;
+    top: -20px;
+}
+
+header {
+    background-color: red;
+}
+
+.motto {
+    background-color: orange;
+    padding: 10px;
+    color: cyan;
+    width: 90vw;
+}
+
+.time {
+    background-color: wheat;
+    padding: 10px;
+    color: yellow;
+    width: 90vw;
+    height: 100px;
+
+    text-align: center;
+    font-size: 20vw;
+}
+
+img {
+    height: 300px;
+    width: 100vw;
+    object-fit: cover;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%, 
+        50% 100%, 0% 75%, 0% 25%
+    );
+}
